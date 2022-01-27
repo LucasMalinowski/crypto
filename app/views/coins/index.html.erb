@@ -36,12 +36,6 @@
 <%= link_to t('new.coin'), new_coin_path, class:"btn btn-primary" %>
 <%= link_to t('links.back'), root_path, class:"btn btn-secondary" %>
 
-
-
-<%= link_to "Valor", coins_path, action: :value   %>
-
-<%= @a %>
-
 <script>
   value_form = document.querySelectorAll("#value-form");
   const interval = setInterval(function() {

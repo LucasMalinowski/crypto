@@ -11,27 +11,27 @@ coins = [
           {
             description: 'Bitcoin',
             acronym: 'BTC',
-            url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1.png'
+            url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1.png',
+            mining_type_id: '1'
           },
           {
             description: 'Ethereum',
             acronym: 'ETH',
-            url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1027.png'
+            url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1027.png',
+            mining_type_id: '1'
           },
           {
             description: 'Dash',
             acronym: 'DASH',
-            url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/131.png'
+            url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/131.png',
+            mining_type_id: '1'
           },
-          {
-            description: 'Iota',
-            acronym: 'IOT',
-            url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1720.png'
-          },
+
           {
             description: 'Dogecoin',
             acronym: 'DOGE',
-            url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/74.png'
+            url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/74.png',
+            mining_type_id: '1'
           },
 ]
 
