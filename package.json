@@ -2,6 +2,7 @@
   "name": "crypto_wallet",
   "private": true,
   "dependencies": {
+    "@rails/ujs": "^7.0.1",
     "@rails/webpacker": "^5.4.3",
     "bootstrap": "4.1.3",
     "jquery": "^3.6.0",
