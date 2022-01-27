@@ -21,7 +21,7 @@
         <td><%= coin.description %></td>
         <td><%= coin.acronym %></td>
         <td id="coin-<%= coin.id %>"><%= render "coin_value", coin: coin %>
-        <%= form_tag(coins_path, method: :get , id: "value-form", remote: true) do %>
+          <%= form_tag(coins_path, method: :get , id: "value-form", remote: true) do %>
             <%= hidden_field_tag "acronym", "#{coin.acronym}"%>
           <% end %></td>
         <td><%= link_to t('links.show'), coin %></td>
